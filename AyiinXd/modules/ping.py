@@ -51,17 +51,17 @@ async def _(ping):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     Ayiin = await edit_or_reply(ping, "**☁️**")
-    await Ayiin.edit("**🌩️**")
-    await Ayiin.edit("**🌧️**")
-    await Ayiin.edit("**⛈️**")
-    await Ayiin.edit("**🌩️**")
+    await Ayiin.edit("**sabarr ell loading**")
+    await Ayiin.edit("**loading ping**")
+    await Ayiin.edit("**bentar lagii**")
+    await Ayiin.edit("**loading successful**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
     await Ayiin.edit("⚡")
     sleep(3)
     await Ayiin.edit(
-        f"**× 𝙻𝚄𝙼𝙸𝙴𝚁𝙴-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ×**\n\n"
+        f"**× 𝗘𝗟𝗟 𝗛𝗔𝗡𝗗𝗦𝗢𝗠𝗘 ×**\n\n"
         f"×× **𝙿𝙸𝙽𝙶𝙴𝚁 :** `%sms`\n"
         f"×× **𝚄𝙿𝚃𝙸𝙼𝙴 :** `{uptime}` \n"
         f"×× **𝙾𝚆𝙽𝙴𝚁 :** [{user.first_name}](tg://user?id={user.id})" % (duration)
@@ -76,19 +76,19 @@ async def _(ping):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xping.edit(
-        f"**PONG!! 🍭**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration)
+        f"**NGENTOTT!! 🍭**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration)
     )
 
 
-@ayiin_cmd(pattern="iping$")
+@ayiin_cmd(pattern="ell$")
 async def _(ping):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     lping = await edit_or_reply(ping, "**★ PING ★**")
-    await lping.edit("**★★ PING ★★**")
-    await lping.edit("**★★★ PING ★★★**")
-    await lping.edit("**★★★★ PING ★★★★**")
-    await lping.edit("**✦҈͜͡➳ PONG!**")
+    await lping.edit("**★★ ell loading ★★**")
+    await lping.edit("**★★★ memuat loading★★★**")
+    await lping.edit("**★★★★ loading successful ★★★★**")
+    await lping.edit("**✦҈͜͡➳ TARA HALO NGENTOT!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
@@ -123,7 +123,7 @@ async def _(pong):
 # .keping & kping Coded by Koala
 
 
-@ayiin_cmd(pattern=r"lumi$")
+@ayiin_cmd(pattern=r"ellganteng$")
 async def _(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
@@ -152,7 +152,7 @@ async def _(pong):
     await kping.edit("⚡")
     sleep(3)
     await kping.edit(
-        f"**×𝙻𝚄𝙼𝙸𝙴𝚁𝙴-𝚄𝚂𝙴𝚁𝙱𝙾𝚃× **\n**𝙿𝙸𝙽𝙶𝙴𝚁** : %sms\n**𝙱𝙾𝚃 𝚄𝙿𝚃𝙸𝙼𝙴** : {uptime}" % (duration)
+        f"**×𝗘𝗟𝗟 𝗛𝗔𝗡𝗗𝗦𝗢𝗠𝗘× **\n**𝙿𝙸𝙽𝙶𝙴𝚁** : %sms\n**𝙱𝙾𝚃 𝚄𝙿𝚃𝙸𝙼𝙴** : {uptime}" % (duration)
     )
 
 
